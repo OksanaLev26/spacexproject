@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/.github.io/spacexproject/static/css/main.12ce3b37.css",
-    "main.js": "/.github.io/spacexproject/static/js/main.ff32f73d.js",
-    "index.html": "/.github.io/spacexproject/index.html",
-    "main.12ce3b37.css.map": "/.github.io/spacexproject/static/css/main.12ce3b37.css.map",
-    "main.ff32f73d.js.map": "/.github.io/spacexproject/static/js/main.ff32f73d.js.map"
+    "main.css": "/spacexproject/static/css/main.12ce3b37.css",
+    "main.js": "/spacexproject/static/js/main.ff32f73d.js",
+    "index.html": "/spacexproject/index.html",
+    "main.12ce3b37.css.map": "/spacexproject/static/css/main.12ce3b37.css.map",
+    "main.ff32f73d.js.map": "/spacexproject/static/js/main.ff32f73d.js.map"
   },
   "entrypoints": [
     "static/css/main.12ce3b37.css",
