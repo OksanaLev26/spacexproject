@@ -1,0 +1,53 @@
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #060815;
+    letter-spacing: 2px;
+    font-variant: all-petite-caps;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.spasexImg {
+    width: 160px;
+    margin-left: 36px;
+}
+
+.hamburger {
+    z-index: 6;
+    cursor: pointer;
+}
+
+@media (min-width: 767px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .hamburger {
+        display: fixed;
+        z-index: 6;
+        margin-right: 24px;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .spasexImg {
+        margin-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        letter-spacing: 0;
+    }
+}

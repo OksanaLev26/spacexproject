@@ -1,0 +1,49 @@
+.homepage {
+    /* background-image: url("../../assets/spacex-tKs_2sBoqAg-unsplash.jpg"); */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Iridium-4_Mission_%2825557986177%29.jpg/2880px-Iridium-4_Mission_%2825557986177%29.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100wh;
+    height: calc(100vh - 88.5px);
+    margin-top: 88.5px;
+}
+
+.homePageContent {
+    width: 45%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 45%;
+    font-size: 20px;
+    font-style: italic;
+    font-variant: petite-caps;
+    width: 100wh;
+    padding-top: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+    p {
+        font-size: 18px;
+    }
+
+    .homePageContent {
+        margin-left: 0;
+        margin: 0 25px;
+        width: 93%;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 14px;
+    }
+
+    .homePageContent {
+        margin-left: 0;
+        margin: 0 20px;
+        width: 90%;
+        padding-top: 0;
+    }
+}

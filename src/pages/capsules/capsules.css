@@ -1,0 +1,82 @@
+.capsules {
+    background-image: linear-gradient(to top, #17234b, #141d3d, #11182f, #0e1122, #060815);
+    margin-top: 85.5px;;
+}
+
+a {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+.capsulesContent {
+    display: flex;
+    color: white;
+    height: calc(100vh - 88.5px);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100%;
+    font-style: italic;
+    font-variant: petite-caps;
+}
+
+.titleCapsules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: white;
+    font-style: italic;
+    font-variant: petite-caps;
+}
+
+@media only screen and (max-width: 992px) {
+    .titleCapsules {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .capsulesContent {
+        padding-top: 0;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .capsuleInfo .key {
+        font-size: 18px;
+    }
+
+    .capsuleInfo .value {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .titleCapsules {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .capsulesContent {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .capsuleInfo .key {
+        font-size: 16px;
+    }
+
+    .capsuleInfo .value {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}

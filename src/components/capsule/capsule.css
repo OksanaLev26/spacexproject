@@ -1,0 +1,50 @@
+.capsule {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 24px;
+    padding: 16px;
+    background-image: url("https://gdb.rferl.org/449431C7-AF1E-4716-8DE9-7AF14EF80F10_w1200_r1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    letter-spacing: 1px;
+    text-shadow: 0 0 3px #1e059c, 0 0 5px #02026d;
+    min-width: 200px;
+}
+
+.title {
+    font-weight: 600;
+    align-self: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-style: oblique;
+}
+
+.capsuleInfo {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.key {
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 8px;
+    letter-spacing: 1px;
+}
+
+.value {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 643px) {
+    .capsule {
+        background-image: none;
+    }
+}

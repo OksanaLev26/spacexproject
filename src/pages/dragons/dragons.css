@@ -1,0 +1,135 @@
+.dragons {
+    background-image: linear-gradient(to top, #17234b, #141d3d, #11182f, #0e1122, #060815);
+    height: calc(100vh - 88.5px);
+    margin-top: 88.5px;
+}
+
+.allDragons {
+    display: flex;
+    margin: 40px;
+    padding: 0 60px;
+}
+
+.titleDragons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: white;
+    margin: 0 0 30px 0;
+    font-style: italic;
+    font-variant: petite-caps;
+}
+
+.dragon {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 50%;
+    color: white;
+}
+
+.dragonImage {
+    max-width: 50rem;
+    width: 100%;
+    border-radius: 8%;
+    max-height: 500px;
+}
+
+.dragonName {
+    margin: 20px;
+    font-style: italic;
+    font-variant: petite-caps;
+    font-size: 36px;
+}
+
+.description {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin: 0 20px 0 20px;
+    font-style: italic;
+    font-variant: petite-caps;
+}
+
+.readMoreButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.readMoreButton:hover {
+    color: turquoise;
+    border-color: turquoise;
+}
+
+@media only screen and (max-width: 992px) {
+    .titleDragons {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .allDragons {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .dragonName {
+        font-size: 26px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .readMoreButton {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .dragons {
+        height: auto;
+    }
+
+    .titleDragons {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .allDragons {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .dragonName {
+        font-size: 26px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .readMoreButton {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .readMoreButton {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .allDragons {
+        margin: 0;
+    }
+}
