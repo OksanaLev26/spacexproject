@@ -1,4 +1,4 @@
-SpaceX API React Project
+SpaceX API React Project (https://oksanalev26.github.io/spacexproject/)
 
 This React project utilizes the SpaceX API to display general information about SpaceX, about crew, dragons and capsules. It features a responsive design, sticky header, and a burger menu for smaller devices. 
 
