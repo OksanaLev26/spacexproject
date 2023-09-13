@@ -39,7 +39,7 @@ npm install
 
 npm start
 
-5. Open your web browser and visit http://localhost:5173 to see the app in action.
+5. Open your web browser and visit http://localhost:3000/spacexproject to see the app in action.
 
 Usage
 
