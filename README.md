@@ -25,11 +25,11 @@ Getting Started
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/OksanaLev26/spaceX.git
+git clone https://github.com/OksanaLev26/spacexproject.git
 
 2. Navigate to the project directory:
 
-cd spaceX
+cd spacexproject
 
 3. Install dependencies:
 
@@ -37,7 +37,7 @@ npm install
 
 4. Start the development server:
 
-npm run dev
+npm start
 
 5. Open your web browser and visit http://localhost:5173 to see the app in action.
 
