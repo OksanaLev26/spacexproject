@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/spacexproject/static/css/main.12ce3b37.css",
-    "main.js": "/spacexproject/static/js/main.ff32f73d.js",
+    "main.js": "/spacexproject/static/js/main.3683e6ea.js",
     "index.html": "/spacexproject/index.html",
     "main.12ce3b37.css.map": "/spacexproject/static/css/main.12ce3b37.css.map",
-    "main.ff32f73d.js.map": "/spacexproject/static/js/main.ff32f73d.js.map"
+    "main.3683e6ea.js.map": "/spacexproject/static/js/main.3683e6ea.js.map"
   },
   "entrypoints": [
     "static/css/main.12ce3b37.css",
-    "static/js/main.ff32f73d.js"
+    "static/js/main.3683e6ea.js"
   ]
 }
