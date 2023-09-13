@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+SpaceX API React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React project utilizes the SpaceX API to display general information about SpaceX, about crew, dragons and capsules. It features a responsive design, sticky header, and a burger menu for smaller devices. 
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+- Fetches data from the SpaceX API using 'fetch' queries.
+- Utilizes React hooks like 'useEffect' and 'useState' for managing state.
+- Uses 'Link' and 'useParams' from 'react-router-dom' for routing and parameter handling.
+- Implements a sticky header for easy navigation.
+- Includes a burger menu for smaller devices using CSS and JavaScript.
+- Features responsive design for various screen sizes.
+- Utilizes 'localStorage' to store and retrieve 'dragonItem' data for a seamless user experience.
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- HTML
+- CSS
+- JavaScript
+- React Router (for routing)
+- SpaceX API (for fetching data)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Getting Started
 
-### `npm test`
+1. Clone the repository to your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/OksanaLev26/spaceX.git
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd spaceX
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm run dev
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your web browser and visit http://localhost:5173 to see the app in action.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project allows you to explore SpaceX launch data. You can:
 
-## Learn More
+- View a general information about SpaceX company.
+- Discover the brave astronauts who have journeyed into space with SpaceX missions.
+- Learn about SpaceX's Dragon spacecraft, both Cargo Dragon and Crew Dragon.
+- Explore SpaceX's capsules. Find out about their missions, and contributions to space exploration.
+- Use sticky headers to easily navigate through the data.
+- Experience a responsive design that adapts to different screen sizes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Folder Structure
+'src/' - Contains the source code of the React application.
+'components/' - Reusable components used throughout the app.
+'pages/' - Individual pages for different sections of the app.
+'App.jsx' - Main application component.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Technologies Used
 
-### Code Splitting
+- React
+- HTML/CSS
+- JavaScript
+- useEffect and useState for managing state and side effects.
+- React Router for handling route parameters with useParams.
+- Fetch API for making requests to the SpaceX API.
+- CSS for styling, including sticky headers and responsive design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Acknowledgments
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- SpaceX API https://github.com/r-spacex/SpaceX-API/tree/master/docs for providing the data used in this project.
+- React for the fantastic JavaScript library.
+- React Router for routing in the app.
+- LocalStorage for data storage within the app.
