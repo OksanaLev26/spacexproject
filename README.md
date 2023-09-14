@@ -62,6 +62,6 @@ Technologies Used
 Acknowledgments
 
 - SpaceX API https://github.com/r-spacex/SpaceX-API/tree/master/docs for providing the data used in this project.
-- React for the fantastic JavaScript library.
+- React for building the single-page app.
 - React Router for routing in the app.
 - LocalStorage for data storage within the app.
