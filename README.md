@@ -12,15 +12,6 @@ Features
 - Features responsive design for various screen sizes.
 - Utilizes 'localStorage' to store and retrieve 'dragonItem' data for a seamless user experience.
 
-Technologies Used
-
-- React
-- HTML
-- CSS
-- JavaScript
-- React Router (for routing)
-- SpaceX API (for fetching data)
-
 Getting Started
 
 1. Clone the repository to your local machine:
